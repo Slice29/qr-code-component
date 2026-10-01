@@ -3,23 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Frontend Mentor | Challenge name</title>
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="icon"
       type="image/png"
-      href="./assets/images/favicon-32x32.png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 0.6875rem;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
 
     <link rel="stylesheet" href="./dist/output.css" />
   </head>
   <body>
-    <main></main>
-    <footer class="text-center text-xs">
+    <main
+      class="flex min-h-screen items-center justify-center bg-slate-300 p-4"
+    >
+      <div
+        class="flex max-w-80 flex-col items-center rounded-xl bg-white p-4 text-slate-900 shadow-xl"
+      >
+        <img
+          class="w-full rounded-xl"
+          src="./assets/images/image-qr-code.png"
+          alt="QR code"
+        />
+        <p class="mt-6 text-center text-2xl font-bold">
+          Improve your front-end skills by building projects
+        </p>
+        <p class="mt-4 px-2 text-center text-paragraph text-slate-500">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+    </main>
+
+    <footer class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name</a>.
+      Coded by <a href="#">Slice29</a>.
     </footer>
   </body>
 </html>
